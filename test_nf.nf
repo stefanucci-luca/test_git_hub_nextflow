@@ -1,6 +1,2 @@
-process versions {
-
-    '''
-    printl "Test that show how to use NF and GitHub scripts"
-    '''
-}
+ch1 = Channel.from( 'Test NF and github scripts' )
+ch1.view()
