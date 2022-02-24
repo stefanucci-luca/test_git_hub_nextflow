@@ -1,10 +1,10 @@
 process versions {
 
     output:
-    file 'file.txt' into fl_ch
+    val into fl_ch
 
     '''
-    R --version > file.txt
+    R --version
     '''
 }
 
