@@ -1,9 +1,6 @@
 process versions {
 
-    output:
-    val into fl_ch
-
     '''
-    R --version
+    echo "Test that show how to use NF and GitHub scripts"
     '''
 }
