@@ -7,5 +7,3 @@ process versions {
     R --version
     '''
 }
-
-fl_ch.view()
